@@ -1,0 +1,273 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html; charset=ISO-8859-1");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta charset=\"ISO-8859-1\">\r\n");
+      out.write("        \r\n");
+      out.write("        <title>Online Bike Rental Service</title>\r\n");
+      out.write("\r\n");
+      out.write("        \r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" \r\n");
+      out.write("              integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" \r\n");
+      out.write("              crossorigin=\"anonymous\">\r\n");
+      out.write("\r\n");
+      out.write("        \r\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>\r\n");
+      out.write("\r\n");
+      out.write("        \r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"Style1.css\"/>\r\n");
+      out.write("    </head>\r\n");
+      out.write("    <body>\r\n");
+      out.write("    <center>\r\n");
+      out.write("        ");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "header.jsp", out, false);
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("        </center>\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("        \r\n");
+      out.write("\r\n");
+      out.write("        <main>\r\n");
+      out.write("\r\n");
+      out.write("            \r\n");
+      out.write("            <div class=\"container-fluid p-0\">\r\n");
+      out.write("                <div class=\"site-title\">\r\n");
+      out.write("                    <div class=\"slider-one\">\r\n");
+      out.write("                        <div class=\"col-md-6  \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=7\"><img class=\"image-resize \" src=\"./ImageFile/Classic 350 Side.jpg\" alt=\"Banner0\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6  \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=8\"><img class=\"image-resize \" src=\"./ImageFile/1200 Custom Side.jpg\" alt=\"Banner1\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=9\"><img class=\"image-resize \" src=\"./ImageFile/Activa 6G Side.jpg\"  alt=\"Banner2\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=10\"><img class=\"image-resize \" src=\"./ImageFile/Iron 883 Side.jpg\"  alt=\"Banner3\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=12\"><img class=\"image-resize \" src=\"./ImageFile/KTM RC 200 orange.jpg\"  alt=\"Banner4\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=11\"><img class=\"image-resize \" src=\"./ImageFile/Forty Eight Special Side.jpg\" alt=\"Banner5\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=6\"><img class=\"image-resize \" src=\"./ImageFile/FZ FI Side.jpg\" alt=\"Banner6\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=5\"><img class=\"image-resize \"  src=\"./ImageFile/p2(1).jpg\" alt=\"Banner7\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=3\"><img class=\"image-resize \" src=\"./ImageFile/Fat Boy Side.jpg\"  alt=\"Banner8\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=4\"><img class=\"image-resize \"  src=\"./ImageFile/Multistrada 950 Ducati Red.jpg\"  alt=\"Banner9\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=2\"><img class=\"image-resize \" src=\"./ImageFile/p3(1).jpg\" alt=\"Banner10\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=1\"><img class=\"image-resize \" src=\"./ImageFile/p4.jpeg\" alt=\"Banner11\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=13\"><img class=\"image-resize \" src=\"./ImageFile/p5.jpg\" alt=\"Banner12\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=15\"><img class=\"image-resize \" src=\"./ImageFile/p6.jpg\" alt=\"Banner13\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"col-md-6 \" >\r\n");
+      out.write("                            <a href=\"http://localhost:8080/Online%20bike%20Rental%20service/bike.jsp?bikeid=14\"><img class=\"image-resize\" src=\"./ImageFile/p7.jpg\" alt=\"Banner14\"/></a>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>  \r\n");
+      out.write("                </div>\r\n");
+      out.write("                <div class=\"slider-btn\">\r\n");
+      out.write("                    <span class=\"prev position-top\"\r\n");
+      out.write("                          ><i class=\"fas fa-chevron-left\"></i>\r\n");
+      out.write("                    </span>\r\n");
+      out.write("                    <span class=\"next position-top right-0\"\r\n");
+      out.write("                          ><i class=\"fas fa-chevron-right\"></i>\r\n");
+      out.write("                    </span>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        \r\n");
+      out.write("\r\n");
+      out.write("        \r\n");
+      out.write("\r\n");
+      out.write("        <h2 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">Browse bikes by</h2>       \r\n");
+      out.write("        <h3 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">Style</h3>\r\n");
+      out.write("                        <div class=\"site-slider-two px-md-4\">\r\n");
+      out.write("\r\n");
+      out.write("                            <div class=\"row\">\r\n");
+      out.write("                                <div class=\" col-md-4 product pt-md-4 \">\r\n");
+      out.write("                                    <a href=\"bikes.jsp\"><img class=\"rounded mx-auto d-block \" src=\"./ImageFile/ph1.jpg\" alt=\"Banner1\">\r\n");
+      out.write("                                       <span  class=\"border site-btn btn-span\">Cruisers Bikes</span></a>\r\n");
+      out.write("                                       </form> \r\n");
+      out.write("                                </div>\r\n");
+      out.write("                                <div class=\"col-md-4 product pt-md-4 \">\r\n");
+      out.write("                                    <a href=\"bikes.jsp\"><img class=\"rounded mx-auto d-block \" src=\"./ImageFile/ph2.jpg\" alt=\"Banner2\">\r\n");
+      out.write("                                        <span class=\"border site-btn btn-span\">Sports Bikes</span></a>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                                <div class=\"col-md-4 product pt-md-4 \">\r\n");
+      out.write("                                    <a href=\"bikes.jsp\"><img class=\"rounded mx-auto d-block \" src=\"./ImageFile/ph3.jpg\" alt=\"Banner3\">\r\n");
+      out.write("                                        <span class=\"border site-btn btn-span \">Street Bikes</span></a>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                                <div class=\"col-md-4 product pt-md-4 \">\r\n");
+      out.write("                                   <a href=\"bikes.jsp\"><img class=\"rounded mx-auto d-block\" src=\"./ImageFile/ph4.jpg\" alt=\"Banner4\">\r\n");
+      out.write("                                       <span class=\"border site-btn btn-span \">Scooters</span></a>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        \r\n");
+      out.write("                        <div class=\"bw-tabs bw-tabs-flex\">\r\n");
+      out.write("                            <h3 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">Displacement</h3>\r\n");
+      out.write("                             <ul class=\"list-unstyled list-inline text-center\"> \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 100cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Upto 100cc</span></span></a></li>   \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 110cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">100cc - 110cc</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 125cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">110cc - 125cc</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 150cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">125cc - 150cc</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 200cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">150cc - 200cc</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 250cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">200cc - 250cc</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best 500cc bikes\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">250cc - 500cc</span></span></a></li>   \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes above 500cc \" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Above 500cc</span></span></a></li>  \r\n");
+      out.write("                                        </ul>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("        \r\n");
+      out.write("                        <div class=\"bw-tabs bw-tabs-flex\">\r\n");
+      out.write("                            <h3 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">Budget</h3>\r\n");
+      out.write("                            <ul class=\"list-unstyled list-inline text-center\">\r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 500\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?500</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 1000\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?1000</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 1500\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?1500</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 2000\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?2000</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 2500\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?2500</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 3000\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?3000</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes under 5000\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Under ?5000</span></span></a></li>  \r\n");
+      out.write("                                            <li><a href=\"bikes.jsp\" title=\"Best bikes above 5000\" class=\"list-item-displacement\"><span class=\"block displacement__info\"><span class=\"displacement__label\">Above ?5000</span></span></a></li>  \r\n");
+      out.write("                                        </ul>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("        \r\n");
+      out.write("                        \r\n");
+      out.write("                        <div class=\"bw-tabs bw-tabs-flex\">\r\n");
+      out.write("                             <h3 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">Brands</h3>\r\n");
+      out.write("                                <div id=\"discoverBrand\" class=\"bw-tabs-data text-center collapsible-brand-content\" style=\"display: block;\">\r\n");
+      out.write("                                    <div id=\"brand-type-container\" class=\"brand-type-container\">  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Royal Enfield bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/royal-enfield20200508193112.jpg\" alt=\"Royal Enfield bikes\" border=\"0\"></span><span class=\"brand-type-title\">Royal Enfield</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Hero bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/hero20200508192826.jpg\" alt=\"Hero bikes\" border=\"0\"></span><span class=\"brand-type-title\">Hero</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Honda bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/honda20200511152343.jpg\" alt=\"Honda bikes\" border=\"0\"></span><span class=\"brand-type-title\">Honda</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Bajaj bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/bajaj20200508192534.jpg\" alt=\"Bajaj bikes\" border=\"0\"></span><span class=\"brand-type-title\">Bajaj</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"TVS bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/tvs20200508193203.jpg\" alt=\"TVS bikes\" border=\"0\"></span><span class=\"brand-type-title\">TVS</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Yamaha bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/yamaha20200508193220.jpg\" alt=\"Yamaha bikes\" border=\"0\"></span><span class=\"brand-type-title\">Yamaha</span></a> \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Suzuki bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/suzuki20200508193118.jpg\" alt=\"Suzuki bikes\" border=\"0\"></span><span class=\"brand-type-title\">Suzuki</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"KTM bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/ktm20200518163508.jpg\" alt=\"KTM bikes\" border=\"0\"></span><span class=\"brand-type-title\">KTM</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Hero Electric bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/hero-electric20200508192834.jpg\" alt=\"Hero Electric bikes\" border=\"0\"></span><span class=\"brand-type-title\">Hero Electric</span></a> \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Jawa bikes\"><span class=\"brand-type\"><img src=\"https://imgd.aeplcdn.com/110x61/bw/makes/jawa20200508192940.jpg\" alt=\"Jawa bikes\" border=\"0\"></span><span class=\"brand-type-title\">Jawa</span></a>\r\n");
+      out.write("\r\n");
+      out.write("                                        <h3 class=\"text-bold text-center margin-top30 margin-bottom20 font22 skin-txt\">More Brands</h3>\r\n");
+      out.write("\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Ampere bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/ampere20200722153827.jpg\" alt=\"Ampere\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/ampere20200722153827.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Ampere</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Aprilia bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/aprilia20200508192455.jpg\" alt=\"Aprilia\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/aprilia20200508192455.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Aprilia</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Ather bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/ather20200518163442.jpg\" alt=\"Ather\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/ather20200518163442.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Ather</span></a> \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Avanturaa Choppers bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/avanturaa-choppers20200508192525.jpg\" alt=\"Avanturaa Choppers\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/avanturaa-choppers20200508192525.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Avanturaa Choppers</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Benelli bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/benelli20200508192543.jpg\" alt=\"Benelli\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/benelli20200508192543.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Benelli</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Benling bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/benling20201027111846.jpg\" alt=\"Benling\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/benling20201027111846.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Benling</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"BGauss bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/bgauss20201014113347.jpg\" alt=\"BGauss\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/bgauss20201014113347.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">BGauss</span></a>  \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"BMW bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/bmw20200508192553.jpg\" alt=\"BMW\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/bmw20200508192553.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">BMW</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"CFMoto bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/cfmoto20200508192601.jpg\" alt=\"CFMoto\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/cfmoto20200508192601.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">CFMoto</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Ducati bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/ducati20200511152332.jpg\" alt=\"Ducati\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/ducati20200511152332.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Ducati</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"EeVe bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/eeve20201014113401.jpg\" alt=\"EeVe\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/eeve20201014113401.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">EeVe</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"F.B Mondial bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/fb-mondial20200508192808.jpg\" alt=\"F.B Mondial\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/fb-mondial20200508192808.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">F.B Mondial</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Gemopai bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/gemopai20201014113421.jpg\" alt=\"Gemopai\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/gemopai20201014113421.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Gemopai</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Harley-Davidson bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/harleydavidson20200508192816.jpg\" alt=\"Harley-Davidson\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/harleydavidson20200508192816.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Harley-Davidson</span></a> \r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Husqvarna bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/husqvarna20200508192901.jpg\" alt=\"Husqvarna\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/husqvarna20200508192901.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Husqvarna</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Kawasaki bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/kawasaki20200508192950.jpg\" alt=\"Kawasaki\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/kawasaki20200508192950.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Kawasaki</span></a>\r\n");
+      out.write("                                        <a href=\"bikes.jsp\" title=\"Triumph bikes\"><span class=\"brand-type\"><img class=\"lazy\" data-original=\"https://imgd.aeplcdn.com/110x61/bw/makes/triumph20200508193154.jpg\" alt=\"Triumph\" src=\"https://imgd.aeplcdn.com/110x61/bw/makes/triumph20200508193154.jpg\" border=\"0\" style=\"display: inline;\"></span><span class=\"brand-type-title\">Triumph</span></a>\r\n");
+      out.write("                                    </div>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("        \r\n");
+      out.write("                        \r\n");
+      out.write("                        \r\n");
+      out.write("                        \r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                        </main>\r\n");
+      out.write("\r\n");
+      out.write("                        \r\n");
+      out.write("                        <footer></footer>\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                        <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\" \r\n");
+      out.write("                                integrity=\"sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV\"\r\n");
+      out.write("                        crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\r\n");
+      out.write("                        <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"\r\n");
+      out.write("                        ></script>\r\n");
+      out.write("                        <script src=\"main.js\" ></script>      \r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                        <center>\r\n");
+      out.write("\r\n");
+      out.write("                        ");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "footer.jsp", out, false);
+      out.write("\r\n");
+      out.write("                    </center>\r\n");
+      out.write("                    </body>\r\n");
+      out.write("                    </html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

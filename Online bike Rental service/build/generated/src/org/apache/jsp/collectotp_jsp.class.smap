@@ -1,0 +1,14 @@
+SMAP
+collectotp_jsp.java
+JSP
+*S JSP
+*F
++ 0 collectotp.jsp
+collectotp.jsp
+*L
+2,15:44
+17:59,3
+18,12:62
+30:74,3
+31,3:77
+*E
